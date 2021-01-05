@@ -1,0 +1,20 @@
+.Die-i{
+    font-size: 7em;
+    color: rgb(21, 161, 196);
+}
+
+.Die-shake{
+    animation: Die 0.13s linear infinite alternate
+}
+
+@keyframes Die{
+    0%{
+      transform: translate(-50px, 30px);
+    }
+    50%{
+      transform: translate(0px, -30px);
+    }
+    100%{
+      transform: translate(50px, 30px);
+    }
+  }
