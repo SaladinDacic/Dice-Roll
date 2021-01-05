@@ -28,7 +28,7 @@ class RollDice extends React.Component{
             this.setState({shake: false});
             this.setState({num1: this.props.array[rand1]})
             this.setState({num2: this.props.array[rand2]})
-        }, 1500)
+        }, 700)
     }
     
     render(){

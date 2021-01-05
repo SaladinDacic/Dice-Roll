@@ -9,7 +9,7 @@
 .RollDice-Die{
     display: flex;
     justify-content: space-around;
-    width: 35vw;
+    width: 25vw;
 }
 
 .RollDice-Button{
@@ -20,7 +20,21 @@
     width: 120px;
     height: 40px;
     background-color: rgb(10, 152, 196);
+    color: white;
+    box-shadow: 0px 9px 5px -2px rgba(0,0,0,0.75);
+    border-bottom: 4px solid rgb(0, 92, 121);
 }
 .RollDice-Button:active{
     background-color: rgb(0, 76, 99);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    border-bottom: 2px solid rgb(0, 92, 121);
+    transform: translateY(3.3em);
+}
+
+.RollDice-Button[disabled]{
+    background-color: rgb(0, 76, 99);
+    border-bottom: 2px solid rgb(0, 92, 121);
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    transform: translateY(3.3em);
+    
 }
